@@ -1,0 +1,34 @@
+{
+  "title": "Crit Checker",
+  "description": "Check For Crits and do something",
+  "authors": [
+    {
+      "name": "jacobwojo",
+      "discord": "jacobwojo#6005"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "esmodules": [
+    "scripts/crit-checker-main.js"
+  ],
+  "styles": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json",
+      "flags": {}
+    }
+  ],
+  "socket": true,
+  "version": "1.19.0",
+  "download": "",
+  "manifest": "",
+  "changelog": "",
+  "readme": "",
+  "url": "",
+  "id": "crit-checker"
+}
