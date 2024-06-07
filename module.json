@@ -8,7 +8,7 @@
     }
   ],
   "compatibility": {
-    "minimum": "12",
+    "minimum": "11",
     "verified": "12"
   },
   "esmodules": [
@@ -24,7 +24,7 @@
     }
   ],
   "socket": true,
-  "version": "1.19.0",
+  "version": "1.0.0",
   "download": "",
   "manifest": "",
   "changelog": "",
