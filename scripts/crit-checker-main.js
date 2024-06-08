@@ -11,7 +11,7 @@ function runCustomStuff(chatMessage){
         
         /* !!!!!! PASTE YOUR STUFF BETWEEN THE {} (AFTER THIS LINE) !!!!!! */
         let fileName = '';
-        switch(chatMessage.speaker)
+        switch(chatMessage.speaker.alias)
         {
             case 'PLAYER_UUID HERE':
                 fileName = 'FILE_PLUS+PATH_HERE';
@@ -32,7 +32,7 @@ function runCustomStuff(chatMessage){
                 console.log('NO PLAYER FOUND');
                 return;
         }
-        game.moules.get('share-media').API.shareFullscreenMediaToAll(fileName, title="", immersive=false, loop=false, mute=false);   
+        game.moules.get('share-media')?.API.shareFullscreenMediaToAll(fileName, title="", immersive=false, loop=false, mute=false);   
     }
 }
 
