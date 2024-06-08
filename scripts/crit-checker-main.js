@@ -8,7 +8,31 @@ function runCustomStuff(chatMessage){
     if(game.user.isGM == true)
     {
         console.log("YO WE RUNNING THE CUSTOM STUFF IT WAS A CRIT");
-        /* !!!!!! PASTE YOUR STUFF BETWEEN THE {} (AFTER THIS LINE) !!!!!! */   
+        
+        /* !!!!!! PASTE YOUR STUFF BETWEEN THE {} (AFTER THIS LINE) !!!!!! */
+        let fileName = '';
+        switch(chatMessage.speaker)
+        {
+            case 'PLAYER_UUID HERE':
+                fileName = 'FILE_PLUS+PATH_HERE';
+                break;
+            case '':
+                fileName = '';
+                break;
+            case '':
+                fileName = '';
+                break;
+            case '':
+                fileName = '';
+                break;
+            case '':
+                fileName = '';
+                break;
+            default:
+                console.log('NO PLAYER FOUND');
+                return;
+        }
+        game.moules.get('share-media').API.shareFullscreenMediaToAll(fileName, title="", immersive=false, loop=false, mute=false);   
     }
 }
 

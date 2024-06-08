@@ -30,5 +30,13 @@
   "changelog": "",
   "readme": "",
   "url": "",
-  "id": "crit-checker"
+  "id": "crit-checker",
+  "relationships": {
+    "requires": [
+      {
+        "id": "share-media",
+        "type": "module"
+      }
+    ]
+  }
 }
